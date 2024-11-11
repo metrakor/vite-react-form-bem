@@ -1,0 +1,130 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%
+}
+
+.registration {
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.registration__info {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 40px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.info-item__icon {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.info-item__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+
+.info-item__description {
+  font-size: 14px;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.registration__form {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form__group {
+  margin-bottom: 15px;
+}
+
+.form__label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.form__input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.form__input:focus {
+  border-color: #6a11cb;
+  outline: none;
+}
+
+.form__group--checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.form__checkbox {
+  margin-right: 10px;
+}
+
+.form__label--checkbox {
+  font-size: 14px;
+  color: #333;
+}
+
+.form__button {
+  background-color: #6a11cb;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form__button:hover {
+  background-color: #2575fc;
+}
